@@ -1,0 +1,37 @@
+{
+  "name": "simple-todo",
+  "version": "1.5.0",
+  "description": "Simple todo app from bootcamp",
+  "main": "index.html",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev-server": "webpack-dev-server --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webhelyhu/todo2.git"
+  },
+  "keywords": [
+    "todo",
+    "bootcamp",
+    "example"
+  ],
+  "author": "Szy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webhelyhu/todo/issues"
+  },
+  "homepage": "https://github.com/webhelyhu/todo#readme",
+  "dependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "uuid": "^3.2.1",
+    "webpack": "^4.41.5",
+    "webpack-core": "^0.6.9",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.10"
+  }
+}
